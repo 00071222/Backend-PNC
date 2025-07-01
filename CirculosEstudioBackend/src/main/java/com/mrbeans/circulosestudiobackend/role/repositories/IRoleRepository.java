@@ -10,6 +10,5 @@ import java.util.UUID;
 public interface IRoleRepository extends JpaRepository<RoleEntity, UUID> {
 
     RoleEntity findByName(String name);
-
     boolean existsByName(String name);
 }

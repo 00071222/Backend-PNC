@@ -60,7 +60,7 @@ public class UserController {
 //    }
 
     @PostMapping
-//    @PreAuthorize("hasAnyRole('ADMIN', 'TUTOR')")
+    @PreAuthorize("hasAnyRole('ADMIN', 'TUTOR')")
     public ResponseEntity<SuccessResponse<Void>> createUser(
             @Valid @RequestBody UserRequestDto dto) {
         userService.createUser(dto);
