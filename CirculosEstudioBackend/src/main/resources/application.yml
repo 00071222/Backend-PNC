@@ -1,6 +1,6 @@
 app:
   upload-dir: "uploads"
-  base-url: "https://backend-pnc-production-1e70.up.railway.app:8080"
+  base-url: "https://backend-pnc-production-1e70.up.railway.app"
   jwt-secret: fWGy30lAyaSNRLLDq2Lau0LJHkruRPjYem1Jpnt3Q+c=
   jwt-expiration-time: 86400000
   cors:
